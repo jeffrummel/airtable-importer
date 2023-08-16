@@ -19634,7 +19634,7 @@ const config = {
   owner: process.env.G_OWNER,
   airtableToken: process.env.AIRTABLE_API_KEY,
   base: process.env.AIRTABLE_BASE_ID,
-  branches: process.env.GITHUB_BRANCH ? process.env.GITHUB_BRANCH.split(',') : ['master'],
+  branches: process.env.GITHUB_BRANCH ? process.env.GITHUB_BRANCH.split(',') : ['main'],
   filename: process.env.FILENAME || 'data.json'
 }
 
