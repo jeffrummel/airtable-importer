@@ -1,6 +1,6 @@
 {
   "name": "airtable-github-json-export",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "Export airtable tables to json in Github",
   "main": "airtable-export.js",
   "bin": "airtable-export.js",
