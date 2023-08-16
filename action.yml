@@ -1,0 +1,5 @@
+name: 'Airtable Importer'
+description: 'Pull data from an Airtable base and convert it to JSON.'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

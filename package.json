@@ -1,0 +1,23 @@
+{
+  "name": "airtable-github-json-export",
+  "version": "1.0.0",
+  "description": "Export airtable tables to json in Github",
+  "main": "airtable-export.js",
+  "bin": "airtable-export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Rummel",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@octokit/rest": "^20.0.1",
+    "airtable": "^0.12.1",
+    "dotenv": "^16.3.1",
+    "json-stable-stringify": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffrummel/airtable-importer.git"
+  }
+}
