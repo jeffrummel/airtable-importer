@@ -8,13 +8,13 @@ require('dotenv').config()
 
 const config = {
   tables: process.env.TABLES.split(','),
-  githubToken: process.env.GITHUB_TOKEN,
-  repo: process.env.GITHUB_REPO,
-  owner: process.env.GITHUB_OWNER,
+  githubToken: process.env.G_TOKEN,
+  repo: process.env.G_REPO,
+  owner: process.env.G_OWNER,
   airtableToken: process.env.AIRTABLE_API_KEY,
   base: process.env.AIRTABLE_BASE_ID,
   branches: process.env.GITHUB_BRANCH ? process.env.GITHUB_BRANCH.split(',') : ['master'],
-  filename: process.env.GITHUB_FILENAME || 'data.json'
+  filename: process.env.FILENAME || 'data.json'
 }
 
 const CREATE_MESSAGE = 'Create dump'
